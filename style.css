@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+.index main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 463px;
+}
+.index img {
+    width: 100%;
+    margin: 16px 0px;
+}
+
+.index nav {
+    margin: 0px;
+}
+.index nav a {
+    margin: 0px 0px;
+}
+.index nav a:hover {
+    
+}
+.index nav a.amarelo {
+    
+}
