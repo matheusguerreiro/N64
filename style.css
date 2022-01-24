@@ -18,6 +18,7 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    min-height: 414px;
 }
 .index main picture img {
     width: 100%;
