@@ -2,16 +2,26 @@
 @font-face {
     font-family: nintendo;
     src: url(fonts/zurich-extra-black.otf);
+    font-weight: normal;
 }
 @font-face {
     font-family: mq;
     src: url(fonts/myriad-pro-black.otf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: gl;
+    src: url(fonts/Game\ Logos.ttf);
 }
 
 header img {
     width: 300px;
     height: auto;
     margin: 16px 0px;
+}
+
+nav {
+    font-family: mq;
 }
 
 .index main {
@@ -23,4 +33,11 @@ header img {
 .index main picture img {
     width: 100%;
     margin: 16px 0px;
+}
+
+footer a {
+    font-family: gl;
+    font-size: 20px;
+    padding: 4px 8px!important;
+    margin: 0px !important;
 }
