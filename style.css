@@ -41,3 +41,15 @@ footer a {
     padding: 4px 8px!important;
     margin: 0px !important;
 }
+
+.emuladores main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 414px;
+}
+.emuladores .w3-card-2 {
+    padding: 8px;
+    margin: 0px 16px;
+}
