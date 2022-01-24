@@ -10,6 +10,7 @@
 
 header img {
     width: 300px;
+    height: auto;
     margin: 16px 0px;
 }
 
@@ -17,7 +18,6 @@ header img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    min-height: 349px;
 }
 .index main picture img {
     width: 100%;
