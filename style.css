@@ -96,3 +96,8 @@ footer a {
 .roms ul li h5 {
     display: none;
 }
+
+.roms input {
+    width: 41%;
+    margin: 32px auto 16px;
+}
