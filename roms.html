@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="cores.css">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="roms">
     <header class="w3-container w3-console-d3 w3-center">
         <img src="images/Title.png" alt="NINTENDO 64">
     </header>
@@ -19,11 +19,114 @@
         <a href="#" class="w3-bar-item w3-button w3-mobile w3-verde w3-hover-green w3-ripple"><strong>ROMS</strong></a>
         <a href="historia.html" target="_self" rel="next" class="amarelo w3-bar-item w3-button w3-mobile w3-controller-l2 w3-hover-amarelo w3-ripple">HISTÓRIA</a>
     </nav>
-    <main class="w3-container w3-white">
-        página ROMS em construção...
+    <main class="w3-container w3-verde w3-row w3-center">
+        <ul id="minhaLista">
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/Super Mario 64.jpg" alt="Super Mario 64">
+                    <h5 class="w3-controller-l2">Super Mario 64</h5>
+                    <div class="w3-controller">
+                        <a href="" download="Super Mario 64" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/Legend of Zelda, The - Ocarina of Time.jpg" alt="Legend of Zelda, The - Ocarina of Time">
+                    <h5 class="w3-controller-l2">Legend of Zelda, The - Ocarina of Time</h5>
+                    <div class="w3-controller">
+                        <a href="" download="Legend of Zelda, The - Ocarina of Time" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/Super Smash Bros.jpg" alt="Super Smash Bros">
+                    <h5 class="w3-controller-l2">Super Smash Bros</h5>
+                    <div class="w3-controller">
+                        <a href="" download="Super Smash Bros" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/Mario Kart 64.jpg" alt="Mario Kart 64">
+                    <h5 class="w3-controller-l2">Mario Kart 64</h5>
+                    <div class="w3-controller">
+                        <a href="" download="Mario Kart 64" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/" alt="">
+                    <h5 class="w3-controller-l2"></h5>
+                    <div class="w3-controller">
+                        <a href="" download="" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/" alt="">
+                    <h5 class="w3-controller-l2"></h5>
+                    <div class="w3-controller">
+                        <a href="" download="" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/" alt="">
+                    <h5 class="w3-controller-l2"></h5>
+                    <div class="w3-controller">
+                        <a href="" download="" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/" alt="">
+                    <h5 class="w3-controller-l2"></h5>
+                    <div class="w3-controller">
+                        <a href="" download="" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="w3-card-2 w3-center w3-console w3-round-small">
+                    <img src="images/roms/" alt="">
+                    <h5 class="w3-controller-l2"></h5>
+                    <div class="w3-controller">
+                        <a href="" download="" class="w3-button w3-verde w3-hover-green w3-ripple">Download</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </main>
     <footer class="w3-container w3-console-d3 w3-center">
-        <a href="https://www.nintendo.com/pt_BR/?L000-11:ch=pdpd" target="_blank" rel="external" class="w3-button w3-vermelho w3-hover-red">A</a>
+        <a href="https://www.nintendo.com/pt_BR/?L000-11:ch=pdpd" target="_blank" rel="external" class="w3-button w3-verde w3-hover-green">A</a>
     </footer>
+    <script>
+        function funcaoFiltrar() {
+          // Declare variables
+          var minhaEntrada, filtro, ul, li, h5, i, txtValue;
+          minhaEntrada = document.getElementById('minhaEntrada');
+          filtro = minhaEntrada.value.toUpperCase();
+          ul = document.getElementById("minhaLista");
+          li = ul.getElementsByTagName('li');
+        
+          // Loop through all list items, and hide those who don't match the search query
+          for (i = 0; i < li.length; i++) {
+            h5 = li[i].getElementsByTagName("h5")[0];
+            txtValue = h5.textContent || h5.innerText;
+            if (txtValue.toUpperCase().indexOf(filtro) > -1) {
+              li[i].style.display = "";
+            } else {
+              li[i].style.display = "none";
+            }
+          }
+        }
+    </script>
 </body>
 </html>

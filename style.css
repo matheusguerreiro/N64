@@ -48,7 +48,7 @@ footer a {
 }
 
 .emuladores div.main {
-    min-height: 414px;
+    min-height: 473px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -66,4 +66,33 @@ footer a {
     padding: 8px 0px !important;
     margin: 0px 0px !important;
     font-family: mq;
+}
+
+
+
+.roms div.w3-card-2 {
+    width: 250px;
+    height: auto;
+    font-family: mq;
+    padding: 8px;
+    margin: 16px;
+}
+.roms div.w3-card-2 img {
+    width: 100%;
+    height: 174px;
+    border-radius: 2px 2px 0px 0px;
+}.roms div.w3-card-2 div {
+    border-radius: 0px 0px 2px 2px;
+    margin-top: 8px;
+}
+
+.roms ul {
+    padding: 0px;
+}
+.roms ul li {
+    list-style: none;
+    display: inline-block;
+}
+.roms ul li h5 {
+    display: none;
 }
