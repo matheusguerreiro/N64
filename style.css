@@ -101,3 +101,65 @@ footer a {
     width: 41%;
     margin: 32px auto 16px;
 }
+
+
+.historia article {
+    padding: 32px;
+    margin: 16px 0px;
+}
+.historia article p {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 16px;
+    text-indent: 32px;
+    line-height: 26px;
+}
+
+.historia article a:link {
+    text-decoration: none;
+    color: #0017ab;
+    font-weight: bold;
+}
+.historia article a:visited {
+    color: #00128b;
+}
+.historia article a:hover {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.historia article a:active {
+    background-color: white;
+    padding: 0px 4px;
+}
+
+
+.historia article div.logotipo.w3-card-2 p {
+    font-family: nintendo;
+    color: #c1bfc0 !important;
+    border-radius: 0px 0px 2px 2px;
+}
+.historia article div.logotipo.w3-card-2 {
+    display: inline-block;
+    width: 200px;
+    margin: 0px 16px 32px 16px;
+}
+.historia article div.logotipo.w3-card-2 img {
+    width: 100%;
+    padding: 12px;
+}
+
+.historia article div.console.w3-card-2 p {
+    font-family: nintendo;
+    color: #c1bfc0 !important;
+    border-radius: 0px 0px 2px 2px;
+}
+.historia article div.console.w3-card-2 {
+    display: inline-block;
+    width: 355px;
+    margin: 0px 16px 32px 16px;
+    border-radius: 2px 2px 0px 0px;
+}
+.historia article div.console.w3-card-2 img {
+    width: 100%;
+    padding: 8px;
+}
