@@ -155,7 +155,7 @@ footer a {
 }
 .historia article div.console.w3-card-2 {
     display: inline-block;
-    width: 355px;
+    width: screen;
     margin: 0px 16px 32px 16px;
     border-radius: 2px 2px 0px 0px;
 }
