@@ -108,6 +108,37 @@ footer a {
     padding: 32px;
     margin: 16px 0px;
 }
+
+.historia hr {
+    border-color: #2e2c2d;
+    padding: 0px;
+    margin: 0px;
+}
+
+.historia article h2.N64 {
+    font-family: nintendo;
+    text-align: left;
+    text-indent: 16px;
+}
+.historia article h2.N64 sup {
+    font-family: mq;
+    font-weight: bold;
+    padding-left: 2px;
+}
+
+.historia article h2.jogos {
+    font-family: mq;
+    text-align: left;
+    /* text-indent: 16px; */
+    padding-left: 16px;
+}
+.historia article h3.cartucho {
+    font-family: mq;
+    text-align: left;
+    /* text-indent: 16px; */
+    padding-left: 16px;
+}
+
 .historia article p {
     font-family: sans-serif;
     text-align: justify;
@@ -120,9 +151,14 @@ footer a {
     text-decoration: none;
     color: #0017ab;
     font-weight: bold;
+    background-color: white;
+    /* background-color: #fffbf0; */
+    border-radius: 2px;
+    padding: 0px 2px;
 }
 .historia article a:visited {
-    color: #00128b;
+    color: #fe1a0d;
+    background-color: #fffbf0;
 }
 .historia article a:hover {
     border-top: 1px solid;
@@ -130,7 +166,7 @@ footer a {
 }
 .historia article a:active {
     background-color: white;
-    padding: 0px 4px;
+    color: black;
 }
 
 
@@ -138,6 +174,7 @@ footer a {
     font-family: nintendo;
     color: #c1bfc0 !important;
     border-radius: 0px 0px 2px 2px;
+    text-indent: 0px;
 }
 .historia article div.logotipo.w3-card-2 {
     display: inline-block;
@@ -150,10 +187,28 @@ footer a {
     padding: 12px;
 }
 
+.historia article div.cartucho.w3-card-2 p {
+    font-family: nintendo;
+    color: #c1bfc0 !important;
+    border-radius: 0px 0px 2px 2px;
+    text-indent: 0px;
+}
+.historia article div.cartucho.w3-card-2 {
+    display: inline-block;
+    width: screen;
+    max-width: 400px;
+    margin: 32px 16px 32px 16px;
+}
+.historia article div.cartucho.w3-card-2 img {
+    width: 100%;
+    padding: 12px;
+}
+
 .historia article div.console.w3-card-2 p {
     font-family: nintendo;
     color: #c1bfc0 !important;
     border-radius: 0px 0px 2px 2px;
+    text-indent: 0px;
 }
 .historia article div.console.w3-card-2 {
     display: inline-block;
