@@ -138,6 +138,9 @@ footer a {
     /* text-indent: 16px; */
     padding-left: 16px;
 }
+.historia article h4.artigoh4 {
+    font-family: mq;
+}
 
 .historia article p {
     font-family: sans-serif;
@@ -185,6 +188,7 @@ footer a {
 .historia article div.logotipo.w3-card-2 img {
     width: 100%;
     padding: 12px;
+    border-radius: 14px;
 }
 
 .historia article div.cartucho.w3-card-2 p {
@@ -202,6 +206,7 @@ footer a {
 .historia article div.cartucho.w3-card-2 img {
     width: 100%;
     padding: 12px;
+    border-radius: 14px;
 }
 
 .historia article div.console.w3-card-2 p {
@@ -219,4 +224,5 @@ footer a {
 .historia article div.console.w3-card-2 img {
     width: 100%;
     padding: 8px;
+    border-radius: 14px;
 }
