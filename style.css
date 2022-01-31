@@ -172,6 +172,24 @@ footer a {
     color: black;
 }
 
+#irParaSNES:link {
+    padding: 3px !important;
+    border: 2px dashed;
+    background-color: white;
+    color: #fc0c18;
+}
+#irParaSNES:visited {
+    color: #9e0209;
+}
+#irParaSNES:hover {
+    border-width: 2px !important;
+    border-style: solid !important;
+}
+#irParaSNES:active {
+    background-color: yellow !important;
+    color: #9e0209;
+}
+
 
 .historia article div.logotipo.w3-card-2 p {
     font-family: nintendo;
